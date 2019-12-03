@@ -1,0 +1,29 @@
+/* main pages ============ */
+
+body {
+    background-color: beige;
+    overflow-x: hidden;
+}
+
+h2, h3 {
+    padding: 1rem 0rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.content-box {
+    padding: 1rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#weather {
+    height: 75vh;
+}
