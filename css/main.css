@@ -82,7 +82,7 @@ main {
 
 .inner-box {
     /* flex: 1; */
-    height: 14rem;
+    /* height: 14rem; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
