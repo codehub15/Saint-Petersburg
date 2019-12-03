@@ -165,7 +165,7 @@ footer p {
     nav {
         display: block;
     }
-    
+
     .nav-icon {
         display: none;
     }
@@ -208,5 +208,43 @@ footer p {
         justify-content: center;
         width: 90%;
     }
+
+
+    /* Top Box */
+
+    h2 {
+        padding-bottom: 0.5em;
+    }
+
+    .top-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inner-box {
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1em 0;
+    }
+
+    .txt {
+        display: block;
+        width: 330px;
+        padding: 0.5em;
+    }
+
+    .txt li {
+        display: block;
+        padding: 0.2em 0;
+    }
+
+    .btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 1em;
+        min-width: 8em;
+        padding: 0.5em;
+    }
+    
 
 }
