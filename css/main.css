@@ -150,3 +150,40 @@ footer {
 footer p {
     padding-top: 1rem;
 }
+
+@media (min-width: 992px) {
+    .nav-icon {
+        display: none;
+    }
+
+    ul {
+        list-style-type: none;
+
+    }
+
+    li {
+        display: inline;
+        padding: 1em;
+    }
+
+    li a {
+        text-decoration: none;
+        color: #79b9dd;
+    }
+
+    header {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        padding: 0 0 0 1em;
+    }
+
+    nav {
+        padding-right: 2em; 
+    }
+
+    
+
+}
