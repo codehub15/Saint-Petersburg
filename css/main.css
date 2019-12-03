@@ -198,6 +198,12 @@ footer p {
         padding-right: 2em; 
     }
 
+    /* Main */
+
+    main {
+        background-color: #fff;
+    }   
+    
     /* Slider */
 
     /* Flex Container */
@@ -206,7 +212,7 @@ footer p {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        width: 90%;
+        width: 80%;
     }
 
 
