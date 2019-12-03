@@ -48,6 +48,10 @@ main {
     align-items: center;
 }
 
+nav {
+    display: none;
+}
+
 #main-img {
     width: 100%;
     margin-bottom: 2rem;
@@ -151,7 +155,17 @@ footer p {
     padding-top: 1rem;
 }
 
+
+/* Media Queries */
+
 @media (min-width: 992px) {
+
+    /* Header */
+
+    nav {
+        display: block;
+    }
+    
     .nav-icon {
         display: none;
     }
@@ -184,6 +198,15 @@ footer p {
         padding-right: 2em; 
     }
 
-    
+    /* Slider */
+
+    /* Flex Container */
+
+    .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 90%;
+    }
 
 }
