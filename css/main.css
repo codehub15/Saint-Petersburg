@@ -48,6 +48,10 @@ main {
     align-items: center;
 }
 
+nav {
+    display: none;
+}
+
 #main-img {
     width: 100%;
     margin-bottom: 2rem;
@@ -107,16 +111,16 @@ main {
     text-decoration: none;
 }
 
-.btn a:hover {
-    color: rgb(227, 233, 225);
-}
-
 .btn a:link {
     color: rgb(141, 176, 204);
 }
 
 .btn a:visited {
-   color: rgb(59, 97, 128);
+    color: rgb(59, 97, 128);
+ }
+ 
+.btn a:hover {
+    color: rgb(227, 233, 225);
 }
 
 .btn a:active {
@@ -131,6 +135,10 @@ main {
 
 .mySlides {
     display:none;
+}
+
+.desktop-hero {
+    display: none;
 }
 
 
@@ -149,4 +157,134 @@ footer {
 
 footer p {
     padding-top: 1rem;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 992px) {
+
+    /* Header */
+
+    nav {
+        display: block;
+    }
+
+    .nav-icon {
+        display: none;
+    }
+
+    ul {
+        list-style-type: none;
+
+    }
+
+    li {
+        display: inline;
+        padding: 1em;
+    }
+
+    li a {
+        text-decoration: none;
+        color: #79b9dd;
+    }
+
+    h2 {
+        padding-bottom: 1em;
+    }
+
+    header {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        padding: 0 0 0 1em;
+    }
+
+    nav {
+        padding-right: 2em; 
+    }
+
+    /* Layout */
+
+    body {
+        background-color: #fff;
+    }
+
+    main {
+        display: block;
+    }
+
+    .flex-container {
+        margin: 0 auto;
+        padding-top: 2em;
+    }
+    /* Slider */
+
+    #slider-box {
+        display: none;
+    }
+
+    .desktop-hero {
+        display: block;
+        height: 500px;
+        background-image: url(../assets/cathetine-palace.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    
+
+    /* Flex Container */
+
+    .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        max-width: 900px;
+    }
+
+    .top-box {
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 2px 4px 2px rgba(0,0,0,0.75);
+    }
+
+    .top-box img {
+        width: 400px;
+        height: 267px;
+    }
+    .inner-box {
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1em 0;
+    }
+
+    .txt {
+        display: block;
+        width: 330px;
+        height: 210px;
+        padding: 0.5em;
+    }
+
+    .txt li {
+        display: block;
+        padding: 0.2em 0;
+    }
+
+    .btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 1em;
+        min-width: 8em;
+        padding: 0.5em;
+    }
+
+    #first-btn {
+        margin-top: 2.3em;
+    }
+    
+
 }
