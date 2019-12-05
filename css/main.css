@@ -62,7 +62,7 @@ nav {
     margin: 0.5rem;
     padding: 1rem 0.5rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: 1px solid #ccc;
     border-radius: 0.3rem;
     background-color: #f1f1f1;
@@ -215,11 +215,6 @@ footer p {
     main {
         display: block;
     }
-
-    .flex-container {
-        margin: 0 auto;
-        padding-top: 2em;
-    }
     
     /* Slider */
 
@@ -243,6 +238,8 @@ footer p {
         flex-flow: row wrap;
         justify-content: center;
         max-width: 900px;
+        margin: 0 auto;
+        padding-top: 2em;
     }
 
     .top-box {
